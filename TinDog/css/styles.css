@@ -12,7 +12,7 @@ h1 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% ;
 }
 
 * {
@@ -45,10 +45,20 @@ h1 {
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+}
+.image-div{
+    position: relative;
 }
 #features{
-    margin:5% 15%;
+    padding:5% 15%;
+    margin: 0;
     text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
     
 }
 
