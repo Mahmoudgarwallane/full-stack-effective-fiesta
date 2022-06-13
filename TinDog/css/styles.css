@@ -52,6 +52,20 @@ h1 {
 .image-div{
     position: relative;
 }
+@media (max-width:991px) {
+    .title-image{
+        transform: rotate(0);
+        position: static;
+    
+    }
+    .image-div{
+        position: static;
+
+    }
+    #title{
+        text-align: center;
+    }
+}
 #features{
     padding:5% 15%;
     margin: 0;
@@ -128,4 +142,25 @@ color: #ff4c68;
 }
 .pricing-column{
     padding: 2% 3%;
+}
+#cta{
+    padding: 10% 20%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+.cta-title{
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    margin-bottom: 5%;
+    font-size: 2.5rem;
+}
+#footer{
+    text-align: center;
+    padding: 8% 8%;
+}
+
+.footer-icon{
+    margin-right: 1%;
+    margin-bottom: 10px;
 }
